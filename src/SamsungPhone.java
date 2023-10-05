@@ -1,7 +1,7 @@
 public class SamsungPhone extends Phone {
     @Override
     public String Info() {
-        return "Это специальный метод для класса SamsungPhone.\n"
+        return "Это определенный для класса SamsungPhone абcтрактный метод Info() из класса Phone. Данные телефона:\n"
                 + "Модель: " + getModel()
                 + "\t, номер: " + getNumber()
                 + "\t, вес: " + getWeight()

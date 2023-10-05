@@ -1,4 +1,4 @@
-public abstract class Phone {
+public abstract class Phone{
     private String number, model;
     private Short weight;
     private final int PhoneID;
@@ -56,7 +56,8 @@ public abstract class Phone {
     }
 
     public void receiveCall(String CallersName){
-        System.out.printf("На %d-й телефон модели %s, номер %s идет вызов от контакта: %s%n", PhoneID, model, number, CallersName);
+       System.out.println("Это сообщение из процедуры receiveCall(), определенной в классе Phone. Информация о звонке:");
+       System.out.printf("На %d-й телефон модели %s, номер %s идет вызов от контакта: %s%n%n", PhoneID, model, number, CallersName);
 
     }
 }
